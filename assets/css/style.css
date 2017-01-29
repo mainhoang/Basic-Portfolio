@@ -1,0 +1,88 @@
+#profile {
+	float: left;
+	margin: 29px 25px 10px 0;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.9em;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.4em;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+p {
+	line-height: 1.9;
+    font-size: 18px;
+    margin: 19px 0 0 0;
+}
+
+hr {
+	border: 0;
+	border-top: 3px solid #ddd;
+	margin: 29px 0 0 0;
+}
+
+body {
+	background-image: url("../images/Portfolio_About.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+}
+
+header {
+	width: 100%;
+	/*background: #fff; */
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 38px;
+}
+
+nav {
+
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background: #yellow; */
+}
+
+main {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+section {
+	width: 650px;
+	border: 1px solid #ddd;
+	float: left;
+	/*background: #white; */
+}
+
+article {
+	margin: 40px 30px 30px 30px;
+}
+
+aside {
+	width: 270px;
+	float: right;
+	/*background: white;*/
+	border: 1px solid #ddd;
+}
+
+.name {
+	display: inline-block;
+	color: #fff;
+	padding: 30px 35px;
+	
+	/*background: #4aaaa5; */
+}
+
+.links {
+	float: right;
+}
