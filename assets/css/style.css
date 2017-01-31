@@ -1,3 +1,8 @@
+
+* {
+	box-sizing:border-box;
+}
+
 #profile {
 	float: left;
 	margin: 29px 25px 10px 0;
@@ -25,6 +30,12 @@ h2 {
 	font-size: 1.4em;
 	color: #4aaaa5;
 	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.2em;
+	color: white;
 }
 
 p {
@@ -106,7 +117,7 @@ label {
 }
 
 input, textarea {
-	width: 97%;
+	width: 100%;
 	padding: 8px;
     margin: 8px 0 18px 0;
     font-size: 0.78em;
@@ -142,12 +153,12 @@ footer {
 	float: left;
 }
 
-.middleLink {
+.navLinks li:nth-child(2) {
 	border-left: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 }
 
-.lastLink {
+.navLinks li:nth-child(3) {
 	padding-right: 0;
 }
 
@@ -171,10 +182,25 @@ footer {
 	margin: 0 2px;
 }
 
+.gallery {
+	margin: 15px 0;
+	overflow: auto;
+}
+
 .gallery li {
 	background-size: cover;
-	width: 200px;
-	height: 150px;
+	width: 275px;
+	height: 200px;
+	overflow: auto;
+	margin: 20px 0 25px 0;
+}
+
+.gallery h3 {
+	background-color: #4aaaa5;
+	position: relative;
+	top: 70%;
+	padding: 15px;
+	text-align: center;
 }
 
 .gallery li:nth-child(1){
@@ -183,6 +209,7 @@ footer {
 
 .gallery li:nth-child(2){
 	background-image: url("../images/jungle.jpg");
+	float: right;
 }
 
 .gallery li:nth-child(3){
@@ -191,10 +218,12 @@ footer {
 
 .gallery li:nth-child(4){
 	background-image: url("../images/cenote.jpg");
+	float: right;
 }
 
 .gallery li:nth-child(5){
 	background-image: url("../images/la20.jpg");
+	margin-bottom: 20px;
 }
 
 ::-webkit-input-placeholder {
