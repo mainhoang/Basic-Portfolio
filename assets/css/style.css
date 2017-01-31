@@ -27,6 +27,10 @@
     outline:0;
 }
 
+#about-wrapper, #form-wrapper, #gallery-wrapper {
+	margin: 40px 30px 30px 30px;
+}
+
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 1.9em;
@@ -98,10 +102,6 @@ section {
 	background: white;
 }
 
-article {
-	margin: 40px 30px 30px 30px;
-}
-
 aside {
 	width: 270px;
 	float: right;
@@ -158,22 +158,22 @@ footer {
 	margin: 33px 0;
 }
 
-.navLink {
+.navLinks li {
 	padding: 0 17px;
 	font-size: 1.14em;
 	float: left;
 }
 
 .navLinks li:nth-child(2) {
-	border-left: 1px solid #ccc;
-	border-right: 1px solid #ccc;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
 }
 
 .navLinks li:nth-child(3) {
 	padding-right: 0;
 }
 
-.connect {
+.connect-wrapper {
 	margin: 30px 30px 38px 30px;
 }
 
