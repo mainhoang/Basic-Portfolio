@@ -76,6 +76,7 @@ nav {
 
 main {
 	width: 960px;
+	min-height: calc(100vh - 270px);
 	margin-left: auto;
 	margin-right: auto;
 	overflow: auto;
@@ -126,6 +127,7 @@ input, textarea {
 }
 
 footer {
+	height: 100px;
 	background: #666;
 	color: #ddd;
 	margin-top: 42px;
