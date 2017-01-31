@@ -171,6 +171,32 @@ footer {
 	margin: 0 2px;
 }
 
+.gallery li {
+	background-size: cover;
+	width: 200px;
+	height: 150px;
+}
+
+.gallery li:nth-child(1){
+	background-image: url("../images/monkey.jpg");
+}
+
+.gallery li:nth-child(2){
+	background-image: url("../images/jungle.jpg");
+}
+
+.gallery li:nth-child(3){
+	background-image: url("../images/tulum.jpg");
+}
+
+.gallery li:nth-child(4){
+	background-image: url("../images/cenote.jpg");
+}
+
+.gallery li:nth-child(5){
+	background-image: url("../images/la20.jpg");
+}
+
 ::-webkit-input-placeholder {
     color:    #ccc;
 }
