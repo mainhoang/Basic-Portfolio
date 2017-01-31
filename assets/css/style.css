@@ -3,6 +3,16 @@
 	margin: 29px 25px 10px 0;
 }
 
+#submitBtn {
+	background: #4aaaa5;
+	color: white;
+	font-size: 1.125em;
+	padding: 10px 20px;
+	margin: 0;
+	width: 20%;
+	border: none;
+}
+
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 1.9em;
@@ -19,7 +29,7 @@ h2 {
 
 p {
 	line-height: 1.9;
-    font-size: 18px;
+    font-size: 1.125em;
     margin: 19px 0 0 0;
 }
 
@@ -86,6 +96,24 @@ li {
 	display: inline-block;
 }
 
+form {
+	font-size: 1.125em;
+	margin: 27px 0 0 0;
+}
+
+label {
+	
+}
+
+input, textarea {
+	width: 97%;
+	padding: 8px;
+    margin: 8px 0 18px 0;
+    font-size: 0.78em;
+    color: #777;
+    border: 1px solid #ddd;	
+}
+
 footer {
 	background: #666;
 	color: #ddd;
@@ -143,9 +171,18 @@ footer {
 	margin: 0 2px;
 }
 
-
-
-
+::-webkit-input-placeholder {
+    color:    #ccc;
+}
+:-moz-placeholder {
+    color:    #ccc;
+}
+::-moz-placeholder {
+    color:    #ccc;
+}
+:-ms-input-placeholder {
+    color:    #ccc;
+}
 
 
 
