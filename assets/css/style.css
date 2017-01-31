@@ -18,6 +18,15 @@
 	border: none;
 }
 
+#submitBtn:hover { 
+    background-color: #64e5df;
+}
+
+#submitBtn:focus { 
+    background-color: #377f7c;
+    outline:0;
+}
+
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 1.9em;
